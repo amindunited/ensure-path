@@ -50,6 +50,11 @@ const ensure = async (fullPath) => {
         fs.mkdir(dir, (err) => {
 
           if (err) {
+            // If the folder already exists it will throw an error...
+            // but we consider this a success
+            if (err.code === 'EEXIST') {
+              return resolve(dir);
+            }
             return reject(err);
           }
           // Istanbul marks this code as not being covered,
