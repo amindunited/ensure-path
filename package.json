@@ -1,6 +1,6 @@
 {
   "name": "@amindunited/ensure-path",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Creates all directories needed for a path",
   "main": "index.js",
   "scripts": {
