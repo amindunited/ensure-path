@@ -1,6 +1,6 @@
 {
   "name": "@amindunited/ensure-path",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Creates all directories needed for a path",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,7 @@
   "homepage": "https://github.com/amindunited/ensure-path#readme",
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^5.2.0",
-    "nyc": "^13.1.0"
+    "mocha": "^7.1.2",
+    "nyc": "^15.0.1"
   }
 }
